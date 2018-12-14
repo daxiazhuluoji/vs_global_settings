@@ -1,0 +1,27 @@
+{
+    "vim.disableAnnoyingNeovimMessage": true,
+    "editor.minimap.enabled": false,
+    "workbench.statusBar.feedback.visible": false,
+    "editor.fontSize": 16,
+    "window.title": "${dirty}${activeEditorLong}${separator}${rootName}${separator}${appName}",
+    "window.menuBarVisibility": "toggle",
+    "workbench.sideBar.location": "left",
+    "editor.renderWhitespace": "none",
+    "search.location": "panel",
+    "workbench.statusBar.visible": true,
+    "breadcrumbs.enabled": false,
+    "workbench.iconTheme": null,
+    "workbench.activityBar.visible": true,
+    "explorer.openEditors.visible": 2,
+    "editor.lineNumbers": "on",
+    "workbench.colorTheme": "DesertEx",
+    "editor.formatOnType": true,
+    "editor.formatOnPaste": true,
+    "window.zoomLevel": 0,
+    "terminal.integrated.shell.windows": "D:\\cygwin64\\bin\\bash.exe",
+    "files.exclude": {
+        "**/*.htm": true,
+        "**/backup": true
+    },
+    "search.useGlobalIgnoreFiles": true
+}

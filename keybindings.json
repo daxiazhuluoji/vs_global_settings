@@ -1,0 +1,68 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    {
+        "key": "oem_comma w",
+        "command": "workbench.action.files.saveAll",
+        "when":"vim.mode != Insert && editorTextFocus"
+    },
+    {
+        "key": "ctrl+n",
+        "command": "workbench.action.nextEditorInGroup"
+    },
+    {
+        "key": "oem_comma c",
+        "command": "editor.action.referenceSearch.trigger",
+        "when":"vim.mode != Insert && editorTextFocus"
+    },
+    {
+        "key": "oem_comma s",
+        "command": "workbench.action.findInFiles",
+        "when":"vim.mode != Insert && editorTextFocus"
+    },
+    {
+        "key": "oem_comma f",
+        "command": "workbench.action.openPreviousEditorFromHistory",
+        "when":"vim.mode != Insert && editorTextFocus"
+    },
+    {
+        "key": "ctrl+k",
+        "command": "workbench.action.focusAboveGroup"
+    },
+    {
+        "key": "ctrl+j",
+        "command": "workbench.action.focusBelowGroup"
+    },
+    {
+        "key": "ctrl+l",
+        "command": "workbench.action.focusRightGroup"
+    },
+    {
+        "key": "ctrl+h",
+        "command": "workbench.action.focusLeftGroup"
+    },
+    {
+        "key": "f2",
+        "command": "workbench.action.toggleActivityBarVisibility"
+    },
+    {
+        "key": "f3",
+        "command": "workbench.action.toggleSidebarVisibility"
+    },
+    {
+        "key": "oem_comma z",
+        "command": "workbench.action.toggleZenMode",
+        "when":"vim.mode != Insert && editorTextFocus"
+    },
+    {
+        "key": "f4",
+        "command": "workbench.action.togglePanel"
+    },
+    {
+        "key": "ctrl+f2",
+        "command": "workbench.action.toggleMenuBar"
+    },
+    {
+        "key": "f8",
+        "command": "actions.findWithSelection"
+    }
+]
