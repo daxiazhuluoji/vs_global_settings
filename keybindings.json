@@ -10,11 +10,6 @@
         "command": "workbench.action.nextEditorInGroup"
     },
     {
-        "key": "oem_comma c",
-        "command": "editor.action.referenceSearch.trigger",
-        "when":"vim.mode != Insert && editorTextFocus"
-    },
-    {
         "key": "oem_comma s",
         "command": "workbench.action.findInFiles",
         "when":"vim.mode != Insert && editorTextFocus"
@@ -47,11 +42,6 @@
     {
         "key": "f3",
         "command": "workbench.action.toggleSidebarVisibility"
-    },
-    {
-        "key": "oem_comma z",
-        "command": "workbench.action.toggleZenMode",
-        "when":"vim.mode != Insert && editorTextFocus"
     },
     {
         "key": "f4",
